@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <h1 class="logo">Journey Jet</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="trip-plan.html">Trip Planner</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section with Search Bar -->
+  <section class="hero">
+    <div class="overlay">
+      <div class="hero-content">
+        <h2>Plan Your Dream Trip</h2>
+        <p>Find the best destinations, activities, and accommodations for your next adventure.</p>
+        <div class="search-bar">
+          <input type="text" placeholder="Enter Destination" id="searchInput">
+          <button onclick="searchDestination()">Search</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Destinations -->
+  <section id="destinations" class="popular-destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destination-grid">
+      <div class="destination">
+        <img src="images/paris.jpeg" alt="Paris">
+        <h3>Paris</h3>
+        <button>Explore</button>
+      </div>
+      <div class="destination">
+        <img src="images/tokyo.jpeg" alt="Tokyo">
+        <h3>Tokyo</h3>
+        <button>Explore</button>
+      </div>
+      <div class="destination">
+        <img src="images/newyork.jpeg" alt="New York">
+        <h3>New York</h3>
+        <button>Explore</button>
+      </div>
+      <div class="destination">
+        <img src="images/rome.jpeg" alt="Rome">
+        <h3>Rome</h3>
+        <p>The Eternal City</p>
+        <button class="explore-btn">Explore Rome</button>
+      </div>
+      <div class="destination">
+        <img src="images/island.jpeg" alt="Bora Bora
+        Island in French Polynesia">
+        <h3>Bora Bora
+            Island in French Polynesia</h3>
+        <button class="explore-btn">Explore Bora </button>
+      </div>
+      
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Login Page Wrapper */
+.login-wrapper {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+/* Left Side - Travel-Themed Image */
+.login-image-side {
+  flex: 1;
+  background-image: url('images/login-page-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 230px;
+}
+
+.login-image-side h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.login-image-side p {
+  font-size: 18px;
+}
+
+/* Right Side - Login Form */
+.login-form-side {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Box */
+.login-box {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-box p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6b35;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #ff8c00;
+}
+
+/* Divider for Social Login */
+.divider {
+  position: relative;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #999;
+}
+
+.divider::before, .divider::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 50%;
+  background-color: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.divider span {
+  background-color: white;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Social Login Buttons */
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-login button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.google-btn img, .facebook-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* Additional Links */
+.extra-links {
+  text-align: center;
+}
+
+.extra-links p {
+  margin: 5px 0;
+}
+
+.extra-links a {
+  color: #ff6b35;
+  text-decoration: none;
+}
+
+.extra-links a:hover {
+  text-decoration: underline;
+}
