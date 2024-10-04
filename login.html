@@ -24,14 +24,14 @@
         <p>Sign in to start planning your next travel adventure.</p>
         
         <!-- Login Form for Username and Password -->
-        <form class="login-form" onsubmit="return false;">
+        <form id="loginform" class="login-form" onsubmit="return true;">
           <div class="input-group">
-            <input type="text" placeholder="Username" required>
+            <input type="text" id="Username" placeholder="Username" required>
           </div>
           <div class="input-group">
-            <input type="password" placeholder="Password" required>
+            <input type="password"id="password" placeholder="Password" required>
           </div>
-          <button type="submit" class="login-btn">Login</button>
+          <button type="submit"  id="login" class="login-btn">Login</button>
         </form>
 
         <!-- Divider for Social Login -->
